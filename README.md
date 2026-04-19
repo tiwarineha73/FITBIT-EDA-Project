@@ -85,7 +85,29 @@ project4-fitbit-eda/
 ├── README.md
 └── requirements.txt
 ```
+## 🚀 Project Overview
 
+This project analyzes Fitbit user activity data to uncover behavioral patterns, fitness trends, and correlations between physical activity and calorie burn.
+
+---
+
+## 🧠 Key Insights
+
+- Strong positive correlation between steps and calories burned
+- Majority of users fall under light activity levels
+- Many users do not meet the 10,000 daily step goal
+- Weekday activity is higher than weekends
+- Sedentary behavior is common among users
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 ---
 
 ## Key Insights
@@ -104,10 +126,10 @@ project4-fitbit-eda/
 ```bash
 git clone https://github.com/yourusername/project4-fitbit-eda
 cd project4-fitbit-eda
-pip install -r requirements.txt
-python src/eda.py
+pip install pandas numpy matplotlib seaborn jupyter
+# jupyter notebook
 # OR
-jupyter notebook notebooks/fitbit_EDA.ipynb
+jupyter notebook notebooks/fitbit_eda.ipynb
 ```
 
 ---
